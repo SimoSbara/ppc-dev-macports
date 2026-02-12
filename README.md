@@ -2,7 +2,7 @@
 
 **Disclaimer**
 This repository hosts pre-compiled MacPorts packages (binary installers) for PowerPC G4 machines running Mac OS X 10.5.8 (Leopard).
-Compiling GCC 13 on a G4 processor can take days (literally 40+ hours).
+Compiling GCC takes about 36 hours on a G4 processor on my system.
 
 **🏗 Build Environment:**
 * **Machine:** PowerBook G4 (Aluminum)
@@ -18,6 +18,7 @@ These are `.mpkg` (Meta-Packages). They are standalone installers that **include
 3.  Follow the instructions.
 
 **🚀 Current Packages:**
-* **GCC 13** (Includes C, C++, Fortran, LTO)
-* **GCC 10 Bootstrap** (Includes C, C++, Fortran, LTO)
+* **gcc 13.3.0**
+* **gcc 14.3.0**
+* **git 2.52.0**
 * *(More ports will be added gradually as I compile them)*
